@@ -15,6 +15,14 @@
 
 <p>Don't click on the button, because this website will disappear if you do.</p>
 
+            <script>
+      function changeColor() {
+        var header = document.getElementById("header");
+        var n = (Math.random() * 0xfffff * 1000000).toString(16);
+        var newColor = '#' + n.slice(0, 6);
+        header.style.backgroundColor = newColor;
+      }
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
