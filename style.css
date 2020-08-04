@@ -19,5 +19,9 @@ navbar a {
   background-color: red;
 }
 #navbar li:hover {
-background-color: purple;
+  background-color: purple;
+}
+.pic {
+  width: 250px;
+  height: 250px;
 }
