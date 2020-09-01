@@ -1,12 +1,11 @@
 #header {
   text-align: center;
   background-color: blue;
+  border-radius: 30px;
 }
 #navbar {
   display:flex;
   justify-content: space-evenly;
-  padding: 10px;
-  border-radius: 20px;
 }
 navbar a {
   text-decoration: none;
